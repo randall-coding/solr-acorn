@@ -3,17 +3,20 @@ containers: {
         image: "solr:9.4.0"
         ports: {
             publish: [
-                "8983:8983/http"
+                "8983:8983/http",
             ]
+        }
+        dirs: {
+                "/var/solr/data": "solr-data"
         }
         sidecars: "volume-permissions": {
             init: true
             image: "ubuntu:20.04"
-                dirs: {
-                    "/var/solr/": "solr-data"
-                    "/home/": "./sidecar.sh"  
-                }
-                command: "/bin/bash /home/sidecar.sh"
+            dirs: {
+                "/var/solr/": "solr-data"
+                "/home/": "./sidecar.sh"  
+            }
+            command: "/bin/bash /home/sidecar.sh"
             }
     }
 }
