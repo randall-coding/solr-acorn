@@ -58,7 +58,9 @@ To ssh into your new server run:
 
 `acorn exec solr bash`
 
-See the [getting started](https://solr.apache.org/guide/solr/latest/getting-started/introduction.html) and [configuration](https://solr.apache.org/guide/solr/latest/configuration-guide/configuration-files.html) documentation for detailed instructions on working with your Solr server.    
+And select the first container to ssh in.
+
+For detailed instructions on working with your Solr server see the [getting started](https://solr.apache.org/guide/solr/latest/getting-started/introduction.html) and [configuration](https://solr.apache.org/guide/solr/latest/configuration-guide/configuration-files.html) documentation   
 
 ## Conclusion
 That's all there is to it.  We've now got our solr server up and running from an acorn image.
