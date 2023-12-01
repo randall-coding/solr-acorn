@@ -60,11 +60,9 @@ If there are any errors check your acorn via the UI or with the following comman
 `acorn logs -f solr`
 
 ## Configure Solr
-To ssh into your new server run:
+To ssh into your new server run: `acorn exec solr bash`
 
-`acorn exec solr bash`
-
-And select the first container to ssh in.
+Then press 'enter' to select the first container to ssh in.
 
 For detailed instructions on working with your Solr server see the [getting started](https://solr.apache.org/guide/solr/latest/getting-started/introduction.html) and [configuration](https://solr.apache.org/guide/solr/latest/configuration-guide/configuration-files.html) documentation   
 
