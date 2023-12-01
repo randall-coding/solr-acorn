@@ -70,5 +70,5 @@ For detailed instructions on working with your Solr server see the [getting star
 That's all there is to it.  We've now got a solr server up and running from an acorn image.
 
 ## References
-* [Getting started with Solr]((https://solr.apache.org/guide/solr/latest/getting-started/introduction.html)
+* [Getting started with Solr](https://solr.apache.org/guide/solr/latest/getting-started/introduction.html)
 * [Getting started with Acorn](https://docs.acorn.io/getting-started)
