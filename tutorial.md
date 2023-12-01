@@ -1,7 +1,7 @@
 # Launch a Solr search server
 
 ## Solr
-Solr (or Apache Solr) is an open source enterprise level search engine optimized for high volume and high speed.  Built on Apache Lucene™, this search engine boasts of advanced full-text search, large scale search, highly scalable fault tolerant performance, near real-time indexing, comprehensive administrative interfaces, and extensible plugin architecture.  
+Solr (or Apache Solr) is an open source enterprise level search engine optimized for high volume and speed.  Built on Apache Lucene™, this search engine boasts of advanced full-text search, large scale search, highly scalable fault tolerant performance, near real-time indexing, comprehensive administrative interfaces, and extensible plugin architecture.  
 
 Solr can be run as part of your microservice architecture as its own node.  In this tutorial we will be doing just that.  
 
@@ -47,11 +47,17 @@ Visit your dashboard to see if your deployment was successful.
 
 Click on the solr deployment, and find the endpoint section on the right side panel.  This is your solr dashboard link.
 
-!! endpoint image
+![acorn_app_solr](https://github.com/randall-coding/solr-acorn/assets/39175191/c2d89fe2-8be8-4b9d-9c90-c7e0720bba03)
 
-You should see a dashboard like the one below:
+![endpoint_solr](https://github.com/randall-coding/solr-acorn/assets/39175191/61aca5eb-c924-4dbe-a46d-5669e6658b19)
 
-!! dashboard
+If everything was successful you should see a dashboard like the one below:
+
+![dash_solr](https://github.com/randall-coding/solr-acorn/assets/39175191/067abb55-0f38-4e96-951b-1f0f82015b1b)
+
+If there are any errors check your acorn via the UI or with the following command:
+
+`acorn logs -f solr`
 
 ## Configure Solr
 To ssh into your new server run:
